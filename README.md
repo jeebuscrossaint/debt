@@ -1,7 +1,6 @@
 # debt
 
-![License](https://img.shields.io/github/license/yourname/debt)
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![License](https://img.shields.io/github/license/jeebuscrossaint/debt)
 ![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-green)
 
 > **D**on't **E**ven **B**other with **T**erminal prefixes
@@ -27,7 +26,7 @@ $ $ ls -la
 ### Using Nix (recommended)
 
 ```bash
-$ nix profile install github:yourname/debt
+$ nix profile install github:jeebuscrossaint/debt
 ```
 
 ### From Source
@@ -37,17 +36,13 @@ $ nix profile install github:yourname/debt
 - CMake 3.10 or higher
 
 ```bash
-$ git clone https://github.com/yourname/debt.git
+$ git clone https://github.com/jeebuscrossaint/debt.git
 $ cd debt
 $ mkdir build && cd build
 $ cmake ..
 $ make
 $ sudo make install
 ```
-
-### Binary Packages
-
-Download pre-built packages from the [releases page](https://github.com/yourname/debt/releases).
 
 ## Usage
 
